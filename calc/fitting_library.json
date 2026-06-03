@@ -1,0 +1,8 @@
+{
+  "elbow_90_rect": {"zeta": 0.35, "note": "矩形风管90°弯头默认值，需按公司标准校核"},
+  "tee_branch": {"zeta": 1.00, "note": "支管三通默认值"},
+  "fire_damper": {"zeta": 1.50, "note": "防火阀默认局部阻力系数"},
+  "volume_damper": {"zeta": 1.00, "note": "调节阀默认局部阻力系数"},
+  "diffuser_terminal_pressure_pa": {"pressure": 50, "note": "普通风口默认末端阻力"},
+  "smoke_terminal_pressure_pa": {"pressure": 80, "note": "排烟口默认末端阻力"}
+}

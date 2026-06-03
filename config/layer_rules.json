@@ -1,0 +1,10 @@
+{
+  "duct_layers": ["0M-D-FIRE", "0M-D-FIR", "0M-D-VEN", "0M-D-AC-SA", "0M-D-FA", "DM-DUCT"],
+  "fan_layers": ["0M-E-FAN", "EQ-风机", "FAN"],
+  "diffuser_layers": ["DIF", "DIFF", "DM-DIFF"],
+  "fitting_layers": ["FIT", "VALV", "DM-VALV"],
+  "centerline_layers": ["CEN"],
+  "dimension_text_patterns": ["(?P<w>\\d{3,4})\\s*[xX×]\\s*(?P<h>\\d{3,4})", "[Φφ]\\s*(?P<dia>\\d{3,4})"],
+  "fan_id_patterns": ["[A-Z]{2,4}-[A-Z]-B\\d+-\\d+", "[A-Z]{2,4}-B\\d+-\\d+"],
+  "airflow_patterns": ["(?P<q>\\d{3,6})\\s*CMH", "(?P<q>\\d{3,6})\\s*m3/h", "(?P<q>\\d{3,6})\\s*m³/h"]
+}
